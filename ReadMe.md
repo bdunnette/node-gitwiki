@@ -5,7 +5,7 @@ GitWiki is a low-level wiki module for nodejs.
 GitWiki uses git as file storage system. To access git repository
 this module uses [node-gitteh](https://github.com/libgit2/node-gitteh).
 
-# What you mean by "low-level"?
+# What do you mean by "low-level"?
 
 By low-level I mean the functions are designed to build a wiki on top
 of them (e.g Editing a file cause a new commit so one can track file
