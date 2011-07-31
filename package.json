@@ -1,16 +1,13 @@
 {
   "name": "gitwiki",
-  "version": "0.1.0",
   "description": "Wiki module built on top of gitteh",
+  "author": "Morteza Milani <mrtz.milani@googlemail.com>",
+  "version": "0.2.0",
   "keywords": ["wiki", "web", "git", "gitteh"],
-  "repository": "git://github.com/milani/wikigit.git",
-  "author": "Morteza Milani <mrtz.milani@googlemail.com> (http://weapi.org)",
+  "repository": "git://github.com/milani/node-gitwiki",
   "dependencies": {
-    "gitteh": ">= 0.0.4 < 0.1.0",
-    "vows": ">= 0.5.6"
-  },
-  "scripts": {
-    "test": "vows test.js --spec"
+    "gitteh": ">= 0.1.0",
+    "markdown": ">= 0.1.0"
   },
   "main": "index",
   "engines": { "node": ">= 0.4.1 < 0.5.0" }

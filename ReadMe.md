@@ -1,21 +1,26 @@
-# What is GitWiki?
+# GitWiki
 
-GitWiki is a low-level wiki module for nodejs.
+GitWiki is a wiki module for nodejs that uses git for storage system.
+It uses [node-gitteh](https://github.com/libgit2/node-gitteh) to 
+access git repository.
 
-GitWiki uses git as file storage system. To access git repository
-this module uses [node-gitteh](https://github.com/libgit2/node-gitteh).
+GitWiki has two parts:
 
-# What do you mean by "low-level"?
+* A low-level interface to intract with wiki Repository.
+* A middleware to add wiki to your site.
 
-By low-level I mean the functions are designed to build a wiki on top
-of them (e.g Editing a file cause a new commit so one can track file
-changes).Also the goal is to provide functions to build a wiki site
-faster, you can use this module for other purposes. For example
-you can use it to build an online repository manager.
+## Installing from NPM
 
-# Attention:
- 
-This module needs gitteh v0.0.4
-Due to a bug in gitteh, removing tree entries in git repository by 
-their names is not possible. You should download and install my fork 
-of gitteh library to use gitwiki.
+    npm install gitwiki
+
+## License
+
+(The MIT License)
+
+Copyright (c) 2011 Morteza Milani mrtz.milani@googlemail.com
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
