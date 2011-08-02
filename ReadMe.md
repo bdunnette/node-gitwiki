@@ -13,6 +13,12 @@ GitWiki has two parts:
 
     npm install gitwiki
 
+## Remained Stuff
+
+* Wiki modification functions like creating or editing a page.
+* Middleware for Express
+* Caching
+
 ## License
 
 (The MIT License)

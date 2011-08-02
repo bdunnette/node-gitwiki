@@ -4,3 +4,4 @@
 * Add middleware support
 * Add logger for debugging purposes
 * Add options for rendering compareRevisions result
+* Implement a caching mechanism
