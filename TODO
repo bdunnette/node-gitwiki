@@ -1,5 +1,4 @@
 * Add different markup engines
-* Support asynchronous function calls
 * Implement unimplemented functions as soon as they are available in gitteh
 * Add middleware support
 * Add logger for debugging purposes
