@@ -2,7 +2,7 @@
   "name": "gitwiki",
   "description": "Wiki module built on top of gitteh",
   "author": "Morteza Milani <mrtz.milani@googlemail.com>",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "keywords": ["wiki", "web", "git", "gitteh"],
   "repository": "git://github.com/milani/node-gitwiki",
   "dependencies": {
